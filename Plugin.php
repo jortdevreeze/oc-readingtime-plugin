@@ -47,20 +47,6 @@ class Plugin extends PluginBase
             ],
         ];
         
-        /*
-        return [
-            'functions' => [
-                'reading_time' => function($content, $speed = 200, $rounding = false) 
-                {
-                    if (true === $rounding) {
-                        return (int) ceil(str_word_count(strip_tags($content)) / $speed)
-                    } else {
-                        return (int) round(str_word_count(strip_tags($content)) / $speed)
-                    }                    
-                }
-            ]
-        ];
-        */
     }
 
 }
